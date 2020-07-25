@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+
+.Signin
+  {
+  	
+  	background-color: lightblue;
+  	width: 50%;
+  	padding-bottom: 20px;
+  	
+  	
+  	
+  }
+.input-container {
+   /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.icon {
+right:450px;
+position: fixed;
+color: gray;
+}
+.remove-icon
+{
+ right:450px;
+
+ color: white;
+ position: fixed;
+ font-style: italic;
+ font-size: 20px;
+ border: none;
+ background-color:lightblue;
+ display: flex;
+  flex-wrap: wrap;
+
+}
+.item1-icon
+{
+	left: 456px;
+	position: fixed;
+	color: white;
+	font-size:24px;
+	text-align: left;
+
+
+	
+}
+.item2-icon
+{
+	position: fixed;
+	left: 450px;
+	color: white;
+	font-size:45px;
+	top: 1.5px;
+    
+	
+}
+ 
+
+
+</style>
+</head>
+<body>
+<div class="container" align="center">
+	
+	<button class="fa fa-remove remove-icon" ></button>
+	
+	
+
+<div class="Signin" ><b style="text-align: center;color: white;">Sign in<i class="fa fa-circle-thin item2-icon" s></i><a href="#" class="fa fa-graduation-cap item1-icon" ></a></b></div><br><br> 
+
+<form action="/action_page.php" style="max-width:500px;margin:auto">
+   
+
+  <div class="input-container" >
+  	   
+    <i class="fa fa-envelope icon" aria-hidden='true'></i>
+    <input class="input-field" type="text" placeholder="email@example.com" name="email">
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-lock icon"></i>
+    <input class="input-field" type="password" placeholder="Password" name="psw">
+  </div>
+  <button style="font-size:14px;color: white;background-color:lightblue;width:100%;padding-bottom: 20px;">SIGN IN</button>
+  <p style="color: gray;font-size:15px;position: absolute;">Forget your password?</p>
+  <p style="color: gray;text-align: right;">Register?</p><br>
+  <p style="color: gray">-----------------------------------------    OR    ------------------------------------------</p>
+  <button style="font-size:14px;background-color: #3B5998;width:100%;padding-bottom: 20px;margin-bottom: 10px"><a href="#" class="fa fa-facebook" style="color: white;font-size: 30px; text-align: center;"></a></button>
+  <button style="font-size:14px;background-color:  #dd4b39;width:100%;padding-bottom: 20px;"><a href="#" class="fa fa-google" style="color: white;font-size: 30px; text-align: center;"></a></button><br><br><br>
+  <button style="font-size:14px;background-color:  #a4c639;width:100%;color: white;padding-bottom: 30px"><b>< EPAM LOGIN ></b></button>
+
+  
+
+  
+</form>
+</div>
+
+</body>
+</html>
